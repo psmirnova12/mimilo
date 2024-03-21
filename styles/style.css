@@ -1,0 +1,1696 @@
+@import url("./fonts.css");
+*{
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/background.jpg);
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header .knop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0;
+    align-items: baseline;
+}
+
+header .container .knop h1{
+    color: #756B62;
+    font-family: 'CormorantInfant';
+    font-size: 28px;
+    font-weight: 500;
+}
+
+header .container .knop h2{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: #988f87;
+    font-weight: 400;
+}
+
+header .container .knop i{
+    color: #756B62;
+    font-size: 25px;
+    
+}
+
+header .container .knop .logo{
+    margin: 0 270px;
+}
+
+
+.section-foto{
+    height: 900px;
+}
+
+.section-foto .container .img{
+    position: relative;
+    height: 720px;
+}
+
+.section-foto .container .img .plec{
+    position: absolute;
+    left: 550px;
+    top: 100px;
+    width: 580px;
+    height: 730px;
+}
+
+.section-foto .container .img .mil{
+    position: absolute;
+    bottom: 455px;
+}
+
+
+.section-foto .container .img .puz{
+    position: absolute;
+    bottom: -110px;
+    left: 250px;
+}
+
+.section-foto .container .img .cart{
+    position: absolute;
+    left: 1065px;
+    bottom: -185px;
+    opacity: 0.3;
+}
+
+.section-foto .container .img .text .p1{
+    position: absolute;
+    bottom: 246px;
+    left: 20px;
+    color: #756B62;
+    font-family: 'Corm';
+    font-size: 100px;
+    font-weight: 300;
+}
+
+.section-foto .container .img .text .p2{
+    position: absolute;
+    bottom: 146px;
+    left: 20px;
+    color: #756B62;
+    font-family: 'Corm';
+    font-size: 100px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+.section-lybov{
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+
+.section-lybov .container .photos{
+    position: relative;
+}
+
+.section-lybov .container .next .slit{
+    display: flex;
+    justify-content: center;
+}
+
+.section-lybov .container .next p{
+    font-family: 'Corm';
+    font-style: italic;
+    font-size: 60px;
+    color: #988f87;
+    display: flex;
+    justify-content: center;
+}
+
+.section-lybov .container .next .slit h2{
+    font-family: 'CormorantInfant';
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0 10px;
+    color: #756B62;
+}
+
+
+.section-lybov .container .photos img{
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+.section-prod{
+    height: 1000px;
+}
+
+
+.section-prod .container .kol{
+    display: flex;
+}
+
+.section-prod .container .kol .line{
+    width: 50px;
+    height: 3px;
+    margin-bottom: 30px;
+    margin: 9px;
+    background-color: #988f87;
+    
+    
+}
+
+.section-prod .container .kol h3{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    color: #988f87;
+}
+
+.section-prod .container .prod{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+
+.section-prod .container .prod .tov .img img{
+    margin: 10px 0;
+}
+
+.section-prod .container .prod .tov p{
+    font-family: 'Montserrat';
+    color: #756B62;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.section-prod .container .prod .tov .rub{
+    display: flex;
+    align-items: baseline;
+}
+
+.section-prod .container .prod .tov .rub i{
+    color: #756B62;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.section-prod .container .prod .tov .knop {
+    line-height: 40px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #988f87;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-prod .container .prod .tov .knop p{
+    font-size: 40px;
+    display: flex;
+    color: #988f87;
+    
+}
+
+.section-prod .container .prod .tov .txt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.section-ist{
+    height: 800px;
+}
+
+
+.section-ist .container .vce .ist h3{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    color: #988f87;
+}
+
+.section-ist .container .vce .ist .txt1 .line{
+    width: 50px;
+    height: 3px;
+    margin-bottom: 30px;
+    margin: 9px;
+    background-color: #988f87;
+}
+
+.section-ist .container .vce .ist .txt1{
+    display: flex;
+}
+
+
+.section-ist .container .vce .ist .txt{
+    width: 700px;
+    margin: 20px 0;
+}
+
+.section-ist .container .vce .ist .txt2 h2{
+    color: #756B62;
+    font-family: 'Corm';
+    font-size: 50px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+
+.section-ist .container .vce .ist .txt3 p{
+    color: #756B62;
+    font-family: 'Corm';
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.section-ist .container .vce .coz{
+    display: flex;
+}
+
+.section-ist .container .vce .coz img{
+    margin: 0 30px ;
+}
+
+
+.section-ist .container .vce .coz .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.section-ist .container .vce .coz .text h3{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #756B62;
+    text-decoration: underline;
+}
+
+.section-ist .container .vce .coz .text p{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: #988f87;
+    margin: 10px 0;
+}
+
+
+.section-ist .container .vce .img{
+    position: relative;
+}
+
+
+.section-ist .container .vce .img .ruka{
+    position: absolute;
+    left: 850px;
+    bottom: -200px;
+}
+
+
+.section-ist .container .vce .img .pip{
+    position: absolute;
+    left: 500px;
+    bottom: -280px;
+}
+
+.section-ist .container .vce .img .rose{
+    position: absolute;
+    left: 1260px;
+    bottom: -200px;
+}
+
+.section-tree{
+    height: 300px;
+}
+
+
+.section-tree .container .tre{
+    display: flex;
+    align-items: baseline;
+}
+
+.section-tree .container .tre .tree{
+    margin: 0 10px;
+}
+
+.section-tree .container .tre .tree .fot{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.section-tree .container .tre .krug{
+    margin: 0 10px;
+}
+
+.section-tree .container .tre .krug .fot{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.section-tree .container .tre .book{
+    margin: 0 10px;
+}
+
+.section-tree .container .tre .book .fot{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.section-tree .container .tre p{
+    color: #988f87;
+    font-family: 'Corm';
+    font-size: 20px;
+}
+
+
+
+
+
+.section-siy .container .siy .text{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section-siy .container .siy h2{
+    color: #988f87;
+    font-family: 'Corm';
+    font-size: 140px;
+    font-weight: 400;
+    
+}
+
+
+.section-siy .container .siy .t1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.section-siy .container .siy .t2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.section-siy .container .siy{
+    position: relative;
+}
+
+.section-siy .container .siy .photo{
+    background-image: url(../img/13.jpg);
+    width: 630px;
+    height: 390px;
+    position: absolute;
+    left: 350px;
+    bottom: 130px;
+}
+
+
+.section-siy .container .siy .photo {
+    display: flex;
+    flex-direction: column;
+    color: rgb(233, 233, 233);
+    align-items: center;
+    justify-content: center;
+}
+
+.section-siy .container .siy .photo .txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.section-siy .container .siy .photo .txt h3{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 25px;
+    
+}
+
+.section-siy .container .siy .photo .txt .rub{
+    display: flex;
+    align-items: baseline;
+}
+
+.section-siy .container .siy .photo .knop{
+    color: rgb(233, 233, 233);
+    font-size: 25px;
+    font-weight: 300;
+    
+    line-height: 40px;
+    width: 170px;
+    height: 60px;
+    border: 2px solid rgb(233, 233, 233);;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -30px;
+    
+}
+
+
+
+
+
+
+
+.section-fot{
+    margin: 150px 0;
+}
+
+.section-fot .container{
+    width: 2000px;
+}
+
+
+
+.section-fot .container .inst{
+    display: flex;
+    align-items: baseline;
+    margin: 50px 0;
+    justify-content: center;
+}
+
+.section-fot .container .inst i{
+    font-size: 35px;
+    margin: 0 10px;
+    color: #988f87;
+}
+
+
+.section-fot .container .inst h3{
+    font-family: 'Montserrat';
+    color: #988f87;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.section-fot .container .inst h2{
+    color: #756B62;
+    text-decoration: underline;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+
+.section-fot .container .photo{
+    width: 2000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.section-anket{
+    background: url(../img/19.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+
+.section-anket .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-anket .container .text{
+    width: 700px;
+    height: 300px;
+}
+
+.section-anket .container .text h2{
+    font-family: 'Corm';
+    color: #756B62;
+    font-size: 50px;
+    font-style: italic;
+    margin: 50px 0 0 0;
+}
+
+.section-anket .container .text p{
+    font-family: "Corm";
+    color: #988f87;
+    font-style: italic;
+    font-size: 20px;
+    margin: 20px 0;
+
+}
+
+.section-anket .container .vstav{
+    width: 500px;
+    margin: 70px 0 0 0;
+    height: 300px;
+}
+
+.section-anket .container .vstav .line{
+    width: 500px;
+    height: 2px;
+    margin-bottom: 30px;
+    margin: 9px 0 50px 0;
+    background-color: #756B62;
+}
+
+.section-anket .container .vstav h3{
+    font-family: 'Montserrat';
+    color: #988f87;
+    font-weight: 400;
+}
+
+.section-anket .container .vstav .perek{
+    display: flex;
+}
+
+.section-anket .container .vstav .perek input{
+    width: 20px;
+    height: 20px;
+    background-color: #756B62;
+}
+
+.section-anket .container .vstav .perek p{
+    color: #756B62;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.section-anket .container .vstav .gal input{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: -5px;
+    margin: 40px 10px 0 0;
+}
+
+
+.section-anket .container .knop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-anket .container .knop h3{
+    color: #756B62;
+    font-size: 20px;
+    font-weight: 400;
+    
+    line-height: 40px;
+    width: 200px;
+    height: 60px;
+    border: 2px solid #756B62;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+
+
+.section-kon{
+    background: url(../img/20.jpg);
+    background-size: cover;
+}
+
+.section-kon .container{
+    display: flex;
+}
+
+.section-kon .container .mimi{
+    width: 400px;
+    height: 500px;
+}
+
+.section-kon .container .mimi h3{
+    color: white;
+    font-family: 'CormorantInfant';
+    font-weight: 300;
+    font-size: 25px;
+    margin: 150px 0 20px 0;
+}
+
+.section-kon .container .mimi h4{
+    color: #9F968E;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.section-kon .container .mimi .i{
+    display: flex;
+    margin: 50px 0;
+}
+
+.section-kon .container .mimi .i .ik{
+    margin: 0 5px 0 0;
+    color: #9F968E;
+    font-size: 15px;
+}
+
+.section-kon .container .mimi .i p{
+    color: #9F968E;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.section-kon .container .adr{
+    width: 400px;
+    height: 500px;
+}
+
+.section-kon .container .adr .glav{
+    color: #9F968E;
+    margin: 200px 0 15px 0;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.section-kon .container .adr p{
+    color: #9F968E;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    margin: 15px 0;
+}
+
+.section-kon .container .fa{
+    display: flex;
+    justify-content: center;
+    margin: 200px 0 0 120px;
+}
+
+.section-kon .container .fa i{
+    color: #9F968E;
+    line-height: 40px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9F968E;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1200px) {
+    .container{
+        width: 1140px;
+    }
+
+    header .knop{
+        margin: 50px 10px;
+    }
+
+    .section-foto .container .img .mil{
+        left: 10px;
+    }
+
+    .section-foto .container .img .plec{
+        left: 530px;
+        width: 522px;
+        height: 657px;
+        top: 100px;
+    }
+
+    .section-foto .container .img .cart{
+        left: 989px;
+        top: 680px;
+    }
+
+    .section-lybov .container .next p{
+        font-size: 50px;
+    }
+
+    .section-lybov .container .next .slit h2{
+        font-size: 50px;
+    }
+
+    .section-lybov .container .photos img{
+        right: 25px;
+    }
+
+    .section-prod .container .prod .tov{
+        margin: 0 10px;
+    }
+
+    .section-prod .container .kol{
+        margin: 0 10px;
+    }
+
+    .section-ist .container .vce .ist .txt1{
+        margin: 0 10px;
+    }
+
+    .section-ist .container .vce .ist .txt2 h2{
+        margin: 0 10px;
+        font-size: 45px;
+    }
+
+    .section-ist .container .vce .ist .txt3 p{
+        margin: 0 10px;
+        font-size: 25px;
+    }
+
+    .section-ist .container .vce .img .ruka{
+        left: 650px;
+        width: 376px;
+        height: 568px;
+        bottom: -210px;
+    }
+
+    .section-ist .container .vce .img .pip{
+        width: 216px;
+        left: 380px;
+    }
+
+    .section-ist .container .vce .img .rose{
+        left: 967px;
+        bottom: -210px;
+    }
+
+    .section-ist .container .vce .coz .text h3{
+        font-size: 18px;
+    }
+
+    .section-ist .container .vce .coz .text p{
+        font-size: 16px;
+    }
+
+    .section-siy .container .siy {
+        justify-content: center;
+    }
+
+    .section-siy .container .siy h2{
+        font-size: 110px;
+    }
+
+    .section-siy .container .siy .photo{
+        width: 621px;
+        height: 351px;
+        bottom: 80px;
+        left: 280px;
+    }
+
+    .section-fot .container .inst h3{
+        font-size: 15px;
+    }
+
+    .section-fot .container .inst h2{
+        font-size: 15px;
+    }
+
+    .section-fot .container .inst i{
+        font-size: 25px;
+    }
+
+    .section-fot .container .inst{
+        margin-right: 40px;
+    }
+
+    .section-siy .container .siy{
+        margin: 0 10px;
+    }
+
+    .section-fot .container .photo{
+        flex-wrap: wrap;
+        width: 1200px;
+        justify-content: center;
+        
+    }
+
+    .section-fot .container .photo img{
+        width: 333px;
+        margin: 10px 10px;
+    }
+
+    .section-anket{
+        margin: 70px 0;
+    }
+
+    .section-kon .container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+
+    .section-kon .container .fa{
+        margin: 90px 0 0 120px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 960px;
+    }
+
+    header .container .knop .logo{
+        font-size: 21px;
+    }
+
+    header .container .knop h2{
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    .section-foto .container .img .plec{
+        width: 416px;
+        height: 527px;
+        top: 60px;
+        left: 450px;
+    }
+
+    .section-foto .container .img .cart{
+        left: 815px;
+        top: 530px;
+        width: 112px;
+    }
+
+    .section-foto .container .img .mil{
+        width: 216px;
+        bottom: 520px;
+    }
+
+    .section-foto .container .img .puz{
+        width: 136px;
+        bottom: 134px;
+    }
+
+    .section-foto .container .img .text .p1{
+        font-size: 85px;
+        bottom: 346px;
+        left: 30px;
+    }
+
+    .section-foto .container .img .text .p2{
+        font-size: 85px;
+        left: 30px;
+        bottom: 266px;
+    }
+
+    .section-prod .container .prod .tov .img img{
+        width: 423px;
+    }
+
+    .section-prod{
+        height: 900px;
+    }
+
+    .section-ist .container .vce .ist .txt2 h2{
+        font-size: 40px;
+    }
+
+    .section-ist .container .vce .ist .txt3 p{
+        font-size: 20px;
+    }
+
+    .section-ist .container .vce .coz .text h3{
+        font-size: 15px;
+    }
+
+    .section-ist .container .vce .img .rose{
+        width: 140px;
+        height: 305px;
+        bottom: -200px;
+        left: 808px;
+    }
+
+    .section-ist .container .vce .coz .text p{
+        font-size: 15px;
+    }
+
+    .section-ist .container .vce .img .ruka{
+        width: 300px;
+        height: 454px;
+        bottom: -200px;
+        left: 550px;
+    }
+
+    .section-ist .container .vce .img .pip{
+        width: 172px;
+        bottom: -130px;
+        left: 340px
+    }
+
+    .section-ist{
+        height: 600px;
+    }
+
+    .section-siy .container .siy h2 {
+        font-size: 90px;
+    }
+
+    .section-siy .container .siy .photo{
+        width: 496px;
+        height: 280px;
+        bottom: 70px;
+        left: 270px;
+    }
+
+    .section-siy .container .siy .photo .txt h3{
+        font-size: 20px;
+    }
+
+    .section-siy .container .siy .photo .knop p{
+        font-size: 20px;
+    }
+
+    .section-siy .container .siy .photo .knop{
+        width: 150px;
+        height: 50px;
+    }
+
+    .section-fot .container .photo img{
+        width: 266px;
+    }
+
+    .section-fot .container .photo{
+        width: 970px;
+    }
+
+    .section-fot .container .inst{
+        width: 970px;
+        justify-content: end;
+        
+    }
+
+    .section-anket .container .knop{
+        margin: 0 20px;
+    }
+
+    .section-kon .container .fa{
+        margin: 90px 0 0 0;
+    }
+
+    .section-lybov .container .next p{
+        font-size: 40px;
+    }
+
+    .section-lybov .container .next .slit h2{
+        font-size: 40px;
+    }
+
+    .section-lybov .container .photos img{
+        right: 12px;
+        bottom: -20px;
+    }
+
+    .section-foto{
+        height: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        width:  740px;
+    }
+
+    
+
+
+    header .container .knop .logo{
+        font-size: 18px;
+        margin: 0 180px;
+    }
+
+    header .container .knop h2{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    header .container .knop i{
+        font-size: 20px;
+    }
+
+    .section-foto .container .img .plec{
+        width: 332px;
+        height: 421px;
+        top: 30px;
+        left: 340px;
+    }
+
+    .section-foto .container .img .mil{
+        width: 172px;
+        bottom: 570px;
+    }
+
+    .section-foto .container .img .puz{
+        width: 108px;
+        bottom: 270px;
+        left: 190px;
+    }
+
+    .section-foto .container .img .text .p1{
+        font-size: 65px;
+        bottom: 456px;
+        left: 20px;
+    }
+
+    .section-foto .container .img .text .p2{
+        font-size: 65px;
+        left: 20px;
+        bottom: 396px;
+    }
+
+
+    .section-foto{
+        height: 500px;
+    }
+
+    .section-lybov .container .next p{
+        font-size: 30px;
+    }
+
+    .section-lybov .container .photos img{
+        width: 142px;
+        height: 180px;
+        bottom: -45px;
+        left: 583px;
+    }
+
+    .section-lybov .container .next .slit h2{
+        font-size: 30px;
+
+    }
+
+    .section-lybov{
+        height: 400px;
+    }
+
+    .section-prod .container .prod .tov .img img{
+        width: 338px;
+    }
+
+    .section-prod{
+        height: 750px;
+    }
+
+    .section-ist .container .vce .ist .txt2 h2{
+        font-size: 30px;
+    }
+
+    .section-ist .container .vce .ist .txt3 p{
+        font-size: 15px;
+    }
+
+    .section-ist .container .vce .coz .text h3{
+        font-size: 13px;
+    }
+
+    .section-ist .container .vce .coz .text p{
+        font-size: 12px;
+    }
+
+    .section-ist .container .vce .coz img{
+        width: 64px;
+        margin: 0 20px;
+    }
+
+    .section-ist .container .vce .img .ruka{
+        width: 240px;
+        height: 363px;
+        bottom: -60px;
+        left: 430px;
+    }
+
+    .section-ist .container .vce .img .pip{
+        width: 137px;
+        bottom: -110px;
+        left: 270px
+    }
+
+    .section-ist .container .vce .img .rose{
+        left: 640px;
+        bottom: -61px;
+        width: 97px;
+        height: 212px;
+    }
+
+    .section-tree .container .tre p{
+        font-size: 18px;
+    }
+
+    .section-siy .container .siy h2{
+        font-size: 60px;
+    }
+
+    .section-siy .container .siy .photo {
+        width: 396px;
+        height: 224px;
+        bottom: 30px;
+        left: 210px;
+    }
+
+    .section-siy .container .siy .photo .txt h3{
+        font-size: 15px;
+    }
+
+    .section-siy .container .siy .photo .knop p{
+        font-size: 15px;
+    }
+
+    .section-siy .container .siy .photo .knop {
+        width: 150px;
+        height: 50px;
+    }
+
+    .section-siy .container .siy .photo .knop {
+        width: 130px;
+        height: 40px;
+    }
+
+    .section-siy .container .siy .photo .txt .rub i{
+        font-size: 12px;
+    }
+
+    .section-fot .container .photo{
+        width: 750px;
+    }
+
+    .section-fot .container .photo{
+        width: 750px;
+    }
+
+    .section-fot .container{
+        width: 750px;
+    }
+
+    .section-fot .container .inst{
+        width: 750px;
+    }
+
+    .section-anket .container .vstav .line{
+        width: 400px;
+    }
+
+    .section-kon .container .mimi{
+        height: 200px;
+    }
+
+    .section-kon .container .fa {
+        margin: 20px 0 0 120px
+    }
+
+    .section-foto .container .img .cart{
+        left: 621px;
+        top: 400px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container{
+        width:  98%;
+    }
+
+    header .container .knop .logo{
+        margin: 0 70px;
+    }
+
+    .section-foto .container .img .mil{
+        width: 120px;
+        bottom: 630px;
+    }
+
+    .section-foto .container .img .plec{
+        width: 208px;
+        height: 264px;
+        top: 20px;
+        left: 240px;
+    }
+
+    .section-foto .container .img .puz{
+        width: 75px;
+        bottom: 405px;
+        left: 90px;
+    }
+
+    .section-foto .container .img .text .p1{
+        font-size: 45px;
+        left: 10px;
+        bottom: 516px;
+    }
+
+    .section-foto .container .img .text .p2{
+        font-size: 45px;
+        left: 10px;
+        bottom: 476px;
+    }
+
+    .section-foto{
+        height: 400px;
+    }
+
+    .section-lybov .container .next p{
+        font-size: 19px;
+    }
+
+    .section-lybov .container .next .slit h2{
+        font-size: 19px;
+    }
+
+    .section-lybov .container .photos img{
+        left: 379px;
+        bottom: -35px;
+        width: 113px;
+        height: 144px;
+    }
+
+    .section-prod .container .kol h3{
+        font-size: 15px;
+    }
+
+    .section-prod .container .kol .line{
+        width: 40px;
+        height: 2px;
+    }
+
+    .section-prod .container .prod .tov .img img{
+        width: 219px;
+    }
+
+    .section-prod .container .prod .tov p{
+        font-size: 15px;
+        margin: 5px 0;
+    }
+
+    .section-prod .container .prod .tov .rub i{
+        font-size: 15px;
+    }
+
+    .section-prod .container .prod .tov .knop p{
+        font-size: 30px;
+    }
+
+    .section-prod .container .prod .tov .knop{
+        width: 40px;
+        height: 40px;
+        
+        
+    }
+
+    .section-ist .container .vce .ist h3{
+        font-size: 15px;
+    }
+
+    .section-ist .container .vce .ist .txt1 .line{
+        width: 40px;
+        height: 2px;
+    }
+
+    .section-ist .container .vce .ist .txt2 h2{
+        font-size: 20px;
+    }
+
+    .section-ist .container .vce .ist .txt3 p{
+        font-size: 10px;
+    }
+
+    .section-ist .container .vce .coz .text h3{
+        font-size: 10px;
+    }
+
+    .section-ist .container .vce .coz .text p{
+        font-size: 9px;
+    }
+
+    .section-ist .container .vce .coz img{
+        width: 50px;
+        margin: 0 10px;
+    }
+
+    .section-prod{
+        height: 600px;
+    }
+
+    .section-ist .container .vce .img .ruka{
+        width: 172px;
+        height: 262px;
+        bottom: -40px;
+        left: 270px
+    }
+
+    .section-ist .container .vce .img .pip{
+        width: 98px;
+        left: 155px;
+        bottom: -100px;
+    }
+
+    .section-ist .container .vce .img .rose{
+        width: 69px;
+        height: 152px;
+        bottom: -41px;
+        left: 420px;
+    }
+
+    .section-ist{
+        height: 400px;
+    }
+
+    .section-tree .container .tre .tree .fot img{
+        width: 39px;
+        height: 50px;
+    }
+
+    .section-tree .container .tre .krug .fot img{
+        width: 39px;
+        height: 40px;
+    }
+
+    .section-tree .container .tre .book img{
+        width: 34px;
+        height: 42px;
+    }
+
+    .section-tree .container .tre p{
+        font-size: 13px;
+    }
+
+    .section-siy .container .siy h2{
+        font-size: 40px;
+    }
+
+    .section-siy .container .siy .photo{
+        width: 237px;
+        height: 134px;
+        bottom: 24px;
+        left: 150px;
+    }
+
+    .section-siy .container .siy .photo .txt h3{
+        font-size: 10px;
+    }
+
+    .section-siy .container .siy .photo .txt .rub i{
+        font-size: 10px;
+    }
+
+    .section-siy .container .siy .photo .knop p{
+        font-size: 10px;
+    }
+
+    .section-siy .container .siy .photo .knop{
+        width: 80px;
+        height: 25px;
+    }
+
+    .section-fot .container .inst{
+        width: 500px;
+    }
+
+    .section-fot .container .photo{
+        width: 500px;
+    }
+
+    .section-anket .container .vstav .line{
+        width: 350px;
+    }
+
+    .section-anket{
+        height: 780px;
+    }
+
+    .section-foto .container .img .cart{
+        width: 89px;
+        left: 405px;
+        top: 240px;
+    }
+
+    .section-ist .container .vce .ist .txt2 h2{
+        width: 490px;
+    }
+
+    .section-ist .container .vce .ist .txt3 p{
+        width: 490px;
+    }
+
+    .section-kon .container .fa{
+        margin: 20px 0 0 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        width:  98%;
+    }
+
+    header .container .knop .logo{
+        margin: 0 20px;
+        font-size: 15px;
+    }
+
+    header .container .knop h2{
+        font-size: 10px;
+    }
+
+    header .container .knop i{
+        font-size: 15px;
+    }
+
+    .section-foto .container .img .mil{
+        width: 96px;
+        bottom: 640px;
+    }
+
+    .section-foto .container .img .plec{
+        width: 166px;
+        height: 211px;
+        left: 180px;
+        top: 10px;
+    }
+
+    .section-foto .container .img .puz{
+        width: 60px;
+        bottom: 498px;
+        left: 70px;
+    }
+
+    .section-foto .container .img .text .p1{
+        font-size: 33px;
+        bottom: 586px;
+    }
+
+    .section-foto .container .img .text .p2{
+        font-size: 33px;
+        bottom: 556px;
+    }
+
+    .section-foto .container .img .cart{
+        width: 71px;
+        left: 312px;
+        top: 185px;
+    }
+
+    .section-foto{
+        height: 200px;
+    }
+
+    .section-lybov .container .next p{
+        font-size: 15px;
+    }
+
+    .section-lybov .container .next .slit h2{
+        font-size: 15px;
+    }
+
+    .section-lybov .container .photos img{
+        width: 90px;
+        height: 115px;
+        left: 302px;
+        bottom: -24px;
+    }
+
+    .section-prod .container .prod .tov .img img{
+        width: 175px;
+    }
+
+    .section-prod .container .prod{
+        margin: 20px 0;
+    }
+
+    .section-prod .container .prod .tov p{
+        font-size: 13px;
+    }
+
+    .section-prod .container .prod .tov .rub i{
+        font-size: 13px;
+    }
+
+    .section-ist .container .vce .ist .txt2 h2{
+        font-size: 15px;
+        width: 400px;
+    }
+
+    .section-ist .container .vce .ist .txt3 p{
+        font-size: 9px;
+        width: 400px;
+    }
+
+    .section-ist .container .vce .coz .text h3{
+        font-size: 9px;
+    }
+
+    .section-ist .container .vce .coz .text p{
+        font-size: 8px;
+    }
+
+    .section-ist .container .vce .coz img{
+        width: 40px;
+    }
+
+    .section-ist .container .vce .img .ruka{
+        width: 137px;
+        height: 209px;
+        bottom: -40px;
+        left: 210px;
+    }
+
+    .section-ist .container .vce .img .rose{
+        width: 55px;
+        height: 121px;
+        bottom: -41px;
+        left: 330px;
+    }
+
+    .section-prod {
+        height: 400px;
+    }
+
+    .section-ist .container .vce .img .pip{
+        width: 78px;
+        left: 105px;
+        bottom: -80px;
+    }
+
+    .section-ist {
+        height: 300px;
+    }
+
+    .section-tree .container .tre p{
+        font-size: 10px;
+    }
+
+    .section-siy .container .siy h2{
+        font-size: 30px;
+    }
+
+    .section-siy .container .siy .photo{
+        width: 170px;
+        height: 96px;
+        bottom: 22px;
+        left: 120px;
+    }
+
+    .section-siy .container .siy .photo .txt h3{
+        font-size: 7px;
+    }
+
+    .section-siy .container .siy .photo .txt .rub i{
+        font-size: 7px;
+    }
+
+    .section-siy .container .siy .photo .knop p{
+        font-size: 7px;
+    }
+
+    .section-siy .container .siy .photo .knop{
+        width: 60px;
+        height: 20px;
+        bottom: -20px;
+    }
+
+    .section-fot .container .inst{
+        width: 400px;
+    }
+
+    .section-fot .container .inst h3{
+        font-size: 10px;
+    }
+
+    .section-fot .container .inst h2{
+        font-size: 10px;
+    }
+
+    .section-fot .container .inst i{
+        font-size: 15px;
+    }
+
+    .section-fot .container .photo{
+        width: 400px;
+    }
+
+    .section-anket .container .text h2{
+        font-size: 40px;
+    }
+
+    .section-anket .container .text p{
+        font-size: 17px;
+    }
+
+    .section-anket .container .vstav{
+        margin: 10px 0;
+    }
+
+    .section-anket .container .vstav h3{
+        font-size: 15px;
+    }
+
+    .section-anket .container .vstav .perek label{
+        font-size: 15px;
+        margin: 0 5px;
+    }
+
+    .section-anket .container .vstav .gal label{
+        font-size: 15px;
+    }
+
+    .section-anket .container .knop h3{
+        font-size: 15px;
+        width: 140px;
+        height: 40px;
+    }
+}
